@@ -1,9 +1,9 @@
 # examine_branches
 PoC to generate an HTML output page given parameters.
 
-* PARAM1 = OLD_BRANCH
-* PARAM2 = NEW_BRANCH
-* PARAM3 = REPOSITORY
+* PARAM1 = repository
+* PARAM2 = github_branch_1
+* PARAM3 = github_branch_2
 
 
 Here's a suggestion on how to approach this:
