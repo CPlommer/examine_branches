@@ -1,4 +1,4 @@
-cd <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,17 +7,14 @@ cd <!DOCTYPE html>
 </head>
 <body>
     <h1>GitHub Branch Comparison</h1>
-    <form method="POST">
+    <form action="/submit" method="POST">
         <label for="repository_path">Repository Path:</label><br>
-        <input type="text" id="repository_path" name="repository_path"><br><br>
-
+        <input type="text" id="repository_path" name="repository_path"><br>
         <label for="github_branch_1">GitHub Branch 1:</label><br>
-        <input type="text" id="github_branch_1" name="github_branch_1"><br><br>
-
+        <input type="text" id="github_branch_1" name="github_branch_1"><br>
         <label for="github_branch_2">GitHub Branch 2:</label><br>
         <input type="text" id="github_branch_2" name="github_branch_2"><br><br>
-
-        <input type="submit" value="Compare Branches">
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
