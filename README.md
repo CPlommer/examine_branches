@@ -1,11 +1,14 @@
 # examine_branches
 PoC to generate an HTML output page given parameters.
 
-PARAM1 = OLD_BRANCH \n
-PARAM2 = NEW_BRANCH \n
+PARAM1 = OLD_BRANCH
+
+PARAM2 = NEW_BRANCH
+
 PARAM3 = REPOSITORY
 
-Here's a suggestion on how you can approach this:
+
+Here's a suggestion on how to approach this:
 
 Web Application Framework:
 Choose a web application framework like Flask (Python), Express (Node.js), or Ruby on Rails (Ruby) to build the form-based application.
