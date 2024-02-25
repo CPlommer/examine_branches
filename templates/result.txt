@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Page</title>
+</head>
+<body>
+    <h1>Comparison Result</h1>
+    <p>Repository Path: {{ repository_path }}</p>
+    <p>GitHub Branch 1: {{ github_branch_1 }}</p>
+    <p>GitHub Branch 2: {{ github_branch_2 }}</p>
+    <!-- You can display more information or process the parameters here -->
+</body>
+</html>
